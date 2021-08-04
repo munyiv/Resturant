@@ -1,5 +1,6 @@
 :root{
-    --yellow:#F7CA3E;  
+    /* --yellow:#F7CA3E;   */
+    --red:#A63333;
 }
 
 *{
@@ -18,8 +19,9 @@ h1, h3{
 }
 
 *::selection{
-    /* background:var(--yellow); */
-    background:yellow;
+    background:var(--red);
+    /* background:yellow; */
+    /* background: blue; */
     /* color:#fff; */
  }
 
@@ -42,7 +44,8 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    /* background:var(--yellow); */
+    background:var(--red);
 }
 
 section{
@@ -59,11 +62,13 @@ section{
     background:none;
     color:#333;
     cursor: pointer;
-    border:.2rem solid var(--yellow);
+    /* border:.2rem solid var(--yellow); */
+    border:.2rem solid var(--red);
 }
 
 .btn:hover{
-    background:var(--yellow);
+    /* background:var(--yellow); */
+    background:var(--red);
 }
 
 .heading{
@@ -75,7 +80,8 @@ section{
 
 .heading span{
     /* color:var(--yellow); */
-    color: yellow;
+    /* color: yellow; */
+     color:var(--red); 
 }
 
 header{
@@ -114,7 +120,8 @@ header .navbar ul li a{
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
     /* color:var(--yellow); */
-    color: yellow;
+    /* color: yellow; */
+    color:var(--red);
 }
 
 header #menu-bar{
@@ -139,7 +146,7 @@ header #menu-bar{
     content:'';
     position: absolute;
     top:5rem; right:-6rem;
-    background:var(--yellow);
+    background:var(--red);
     border-radius: 3rem;
     transform:rotate(-45deg);
     height:40rem;
@@ -195,7 +202,7 @@ header #menu-bar{
 .about .image{
     flex:1 1 40rem;
     height:50rem;
-    background:url(images/about-frame-img.png), url(images/wine.jpeg) no-repeat;
+    background:url(images/kula.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
@@ -235,7 +242,7 @@ header #menu-bar{
 
 .menu .list .btn.active,
 .menu .list .btn:hover{
-    background:var(--yellow);
+    background:var(--red);
     color:#fff;
 }
 
@@ -277,7 +284,7 @@ header #menu-bar{
 
 .menu .row .content .info h3 span{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--red);
 }
 
 .menu .row .content .info p{
@@ -428,12 +435,12 @@ header #menu-bar{
 }
 
 .footer .box-container .box a:hover{
-    color:var(--yellow);
+    color:var(--red);
 }
 
 .footer .box-container .box p i{
     padding-right: .5rem;
-    color:var(--yellow);
+    color:var(--red);
 }
 
 .footer .credit{
@@ -447,7 +454,7 @@ header #menu-bar{
 }
 
 .footer .credit a{
-    color:var(--yellow);
+    color:var(--red);
 }
 /* media queries  */
 
@@ -475,7 +482,7 @@ header #menu-bar{
         position: fixed;
         top:8rem; left:0;
         width:100%;
-        background:var(--yellow);
+        background:var(--red);
         border-top: .2rem solid rgba(0,0,0,.1);
         transform:scaleY(0);
         transform-origin: top;
